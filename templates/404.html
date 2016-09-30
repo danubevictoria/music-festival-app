@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Python Flask Music Festival App</title>
+ 
+    
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+ 
+    <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='styles/signup.css') }}">
+    <link type="text/javascript" href="{{ url_for('static', filename='js/jquery-3.1.1.js') }}">
+    <script type="text/javascript" src="{{ url_for('static', filename='js/jquery-3.1.1.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/signUp.js') }}"></script>
+  </head>
+  
+  <body>
+ 
+    <div class="container">
+      <div class="header">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation" ><a href="home">Home</a></li>
+            <li role="presentation"><a href="usersignin">Sign In</a></li>
+            <li role="presentation" class="active"><a href="usersignup">Sign Up</a></li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">Python Flask App</h3>
+      </div>
+ 
+      <div class="jumbotron">
+        <h2>ERROR :( Please try again.</h2>
+      </div>
+ 
+       
+ 
+      <footer class="footer">
+        <p>&copy; Danube Phan 2016</p>
+      </footer>
+ 
+    </div>
+  </body>
+</html>
